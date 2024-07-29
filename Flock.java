@@ -5,7 +5,6 @@
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Iterator;
 
 public class Flock implements Quackable{
     List<Quackable> quackers = new ArrayList();

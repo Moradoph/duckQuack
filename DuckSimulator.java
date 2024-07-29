@@ -7,10 +7,14 @@ public class DuckSimulator {
     public static void main(String[] args) {
         DuckSimulator simulator = new DuckSimulator();
         AbstractDuckFactory duckFactory = new CountingPoliteDuckFactory();
+        CountingDuckFactory countingDuckFactory = new CountingDuckFactory();
+        CountingPoliteDuckFactory  countingPoliteDuckFactory = new CountingPoliteDuckFactory();
 
         simulator.simulate();
         System.out.println();
         simulator.simulate(duckFactory);
+        simulator.simulate(countingDuckFactory);
+        simulator.simulate(countingPoliteDuckFactory);
     }
 
     void simulate() {
