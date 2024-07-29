@@ -1,3 +1,8 @@
+/**
+ * StudentID: 6510450861
+ * Name: Moradop Hengprasert
+ */
+
 public class DuckFactory extends AbstractDuckFactory{
     @Override
     public Quackable createMallardDuck() {

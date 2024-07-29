@@ -1,3 +1,8 @@
+/**
+ * StudentID: 6510450861
+ * Name: Moradop Hengprasert
+ */
+
 public class DuckSimulator {
     public static void main(String[] args) {
         DuckSimulator simulator = new DuckSimulator();
